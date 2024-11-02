@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./src/style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cabecalho">
+        <h1 id="playerText">Jogo da Velha</h1>
+      </div>
+
+      <a href="/one-player.html" class="mode-btn">VS Computador</a>
+      
+
+      <div id="gameboard">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+      </div>
+      <button id="restartBtn">Restart</button>
+      <div id="scoreboard">
+        <p>X - <span id="x-points">0</span></p>
+        <p>VS</p>
+        <p>O - <span id="o-points">0</span></p>
+      </div>
+
+      <footer>
+        <p>Site criado por <a href="https://caiodiom.github.io/portfolio-caio/
+            "target="blank">Caio Braga 🔗</a> para  <a href="https://github.com/caiodiom"target="blank">Mesus Projetos 🔗</a>.
+        </p>
+      </footer>
+
+    </div>
+
+
+
+    <script src="src/scripts/main.js"></script>
+  </body>
+</html>
